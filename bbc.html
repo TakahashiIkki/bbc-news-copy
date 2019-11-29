@@ -3,8 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <title>Home - BBC News</title>
+        <style type="text/css">
+            .navigation {
+                width: 100%;
+                background-color: #bb1919;
+                color: white;
+            }
+
+            .navigation-link {
+                background-color: #bb1919;
+                height: 60px;
+            }
+
+            .navigation-link-item {
+                width: 60px;
+                padding: 0 5px;
+                text-align: center;
+                border-left: 1px white solid;
+                float: left;
+            }
+
+            .navigation-link-item-selected {
+                border-bottom: 5px white solid;
+            }
+        </style>
     </head>
     <body>
-        sample
+        <header>
+            <img src="images/bbc-logo.png">
+        </header>
+
+        <!-- Navigation -->
+        <div class="navigation">
+            <h1>NEWS</h1>
+            <div class="navigation-link">
+                <div class="navigation-link-item navigation-link-item-selected">Home</div>
+                <div class="navigation-link-item">Video</div>
+                <div class="navigation-link-item">World</div>
+                <div class="navigation-link-item">Asia</div>
+                <div class="navigation-link-item">UK</div>
+                <div class="navigation-link-item">Business</div>
+                <div class="navigation-link-item">Tech</div>
+                <div class="navigation-link-item">Science</div>
+                <div class="navigation-link-item">Stories</div>
+                <div class="navigation-link-item">Environment & Arts</div>
+                <div class="navigation-link-item">Health</div>
+                <div class="navigation-link-item">World News TV</div>
+                <div class="navigation-link-item">More</div>
+            </div>
+        </div>
     </body>
 </html>
